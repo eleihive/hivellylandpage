@@ -702,7 +702,8 @@ p {
 .hometext.uno {
   left: 0px;
   top: 100px;
-  width: 611px;
+  width: auto;
+  height: auto;
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -714,8 +715,8 @@ p {
 .hometext.explorertexttext {
   left: 0px;
   top: 0px;
-  width: 42vw;
-  height: 219px;
+  width: auto;
+  height: auto;
   margin-top: 100px;
   padding-right: 0px;
   padding-left: 0px;
@@ -723,9 +724,14 @@ p {
 
 .hometext.explorertexttext.ctx {
   top: 0px;
-  width: 29vw;
+  width: auto;
+  height: auto;
   margin-top: 100px;
   padding-left: 0px;
+}
+
+.hometext.explorertexttext.mobile {
+  display: none;
 }
 
 .home {
@@ -1302,8 +1308,8 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 0px 0px, 50% 50%;
   color: #fff;
 }
@@ -2713,6 +2719,7 @@ p {
   background-image: none;
   box-shadow: 1px 1px 12px -3px #000;
   opacity: 0.7;
+  font-family: Roboto, sans-serif;
   color: #fff;
 }
 
@@ -2837,6 +2844,7 @@ p {
   width: 58px;
   height: 24px;
   background-image: none;
+  font-family: Roboto, sans-serif;
   font-size: 12px;
   font-weight: 400;
 }
@@ -2857,6 +2865,7 @@ p {
   width: 64px;
   height: 26px;
   background-image: repeating-linear-gradient(265deg, rgba(211, 39, 236, 0.55), rgba(63, 101, 255, 0.55));
+  font-family: Roboto, sans-serif;
   color: #fff;
   font-size: 12px;
   font-weight: 400;
@@ -3712,7 +3721,8 @@ p {
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
   align-self: auto;
-  background-image: url('../images/BackgroundGirlNew22.webp');
+  background-color: transparent;
+  background-image: url('../images/BackgroundGirlNew22.jpg');
   background-position: 50% 55%;
   background-size: auto 170%;
   background-repeat: no-repeat;
@@ -3761,7 +3771,7 @@ p {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  background-image: url('../images/GodBackgroundNew.webp');
+  background-image: url('../images/GodBackgroundNew.jpg');
   background-position: 50% 60%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -3896,7 +3906,7 @@ p {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
-  background-image: url('../images/BackgroundMaster.webp');
+  background-image: url('../images/BackgroundMaster.jpg');
   background-position: 50% 50%;
   background-size: 2500px;
   background-repeat: no-repeat;
@@ -3913,7 +3923,7 @@ p {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
-  background-image: url('../images/ExplorerBackgroundNew.webp');
+  background-image: url('../images/ExplorerBackgroundNew.jpg');
   background-position: 50% 30%;
   background-size: auto 150%;
   background-repeat: no-repeat;
@@ -5217,8 +5227,8 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 38%;
-  height: 300px;
+  width: auto;
+  height: auto;
   margin-top: 100px;
   padding-right: 0px;
   -webkit-box-orient: vertical;
@@ -5623,7 +5633,7 @@ p {
 .div-block-66 {
   position: absolute;
   left: auto;
-  top: 146px;
+  top: -370px;
   right: auto;
   bottom: auto;
   z-index: 400;
@@ -5631,7 +5641,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin-top: 0px;
   -webkit-box-pack: end;
@@ -5650,7 +5660,7 @@ p {
 .tiposentado {
   display: block;
   width: 200px;
-  height: 70%;
+  height: 100%;
   margin-top: 184px;
   margin-right: 0px;
 }
@@ -5800,9 +5810,10 @@ p {
 
 .getstartinbutton.cakkaction1 {
   position: absolute;
-  top: 435px;
+  top: auto;
   z-index: 800;
   width: 37%;
+  margin-top: 179px;
 }
 
 .text-span-19 {
@@ -6144,6 +6155,7 @@ p {
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+  background-image: linear-gradient(86deg, #3939ad, #9f28b9);
 }
 
 .basictradingiconcentered {
@@ -6425,6 +6437,7 @@ p {
   padding-left: 40px;
   font-size: 41px;
   line-height: 38px;
+  white-space: nowrap;
 }
 
 .hivellytitle1.expl.ctx {
@@ -6538,6 +6551,7 @@ p {
   font-size: 45px;
   line-height: 50px;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 .text-span-35.expl.ctx {
@@ -6844,7 +6858,7 @@ p {
 }
 
 .text-block-24 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 27px;
   line-height: 36px;
@@ -7593,7 +7607,7 @@ p {
   width: 100%;
   height: 100%;
   background-color: transparent;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
   background-position: 50% 50%;
   background-size: 125px;
 }
@@ -9890,7 +9904,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 30%;
+  width: 31%;
   margin-right: 40px;
   padding: 20px;
   -webkit-box-orient: vertical;
@@ -9969,6 +9983,15 @@ p {
 
 .image-43 {
   position: relative;
+}
+
+.text-span-105 {
+  white-space: nowrap;
+}
+
+.text-span-106 {
+  white-space: nowrap;
+  background-clip: border-box;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10285,7 +10308,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 300px;
+    width: 90%;
   }
   .tiposentado.dosdos {
     opacity: 0.8;
@@ -10908,6 +10931,9 @@ p {
   .hivellytitle1 {
     padding-left: 80px;
   }
+  .hivellytitle1.expl.ctx {
+    padding-left: 80px;
+  }
   .hivellyundertitle1 {
     padding-left: 80px;
   }
@@ -10925,6 +10951,9 @@ p {
   }
   .text-block-22.ctx.ctx2 {
     line-height: 20px;
+  }
+  .text-span-89.ctx {
+    padding-left: 80px;
   }
   .fondotextgradientctx {
     width: 746px;
@@ -11762,7 +11791,7 @@ p {
   }
   .section-6 {
     height: 100vh;
-    background-image: url('../images/BackgroundMaster.webp');
+    background-image: url('../images/BackgroundMaster.jpg');
     background-position: 50% 50%;
     background-size: auto 174%;
     background-repeat: no-repeat;
@@ -11770,7 +11799,7 @@ p {
   .section-6.treasurehunter {
     height: 100vh;
     border: 1px none #000;
-    background-image: url('../images/ExplorerBackgroundNew.webp');
+    background-image: url('../images/ExplorerBackgroundNew.jpg');
     background-position: 50% 57%;
     background-size: auto 174%;
   }
@@ -12359,9 +12388,10 @@ p {
     align-items: flex-start;
   }
   .getstartinbutton.cakkaction1 {
-    top: 557px;
+    top: auto;
     z-index: 900;
     width: 32%;
+    margin-top: 200px;
     padding-right: 20px;
     padding-left: 20px;
     -webkit-align-self: auto;
@@ -12750,6 +12780,7 @@ p {
   }
   .hivellytitle1.expl.ctx {
     padding-left: 80px;
+    white-space: nowrap;
   }
   .hivellyundertitle1 {
     margin-bottom: 0px;
@@ -14180,6 +14211,9 @@ p {
   }
   .text-span-102 {
     font-weight: 300;
+  }
+  .text-span-105 {
+    white-space: nowrap;
   }
 }
 
@@ -15799,6 +15833,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
     height: 50%;
   }
   .tiposentado {
@@ -15807,7 +15842,7 @@ p {
     display: -ms-flexbox;
     display: flex;
     height: 296px;
-    margin-top: 100px;
+    margin-top: -220px;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
@@ -16042,6 +16077,7 @@ p {
     font-size: 4.8vh;
     line-height: 100%;
     text-align: left;
+    white-space: nowrap;
   }
   .text-span-35.expl.ctx {
     position: relative;
@@ -17617,7 +17653,7 @@ p {
   .tiposentado {
     width: 150px;
     height: 200px;
-    margin-top: 250px;
+    margin-top: -184px;
   }
   .tiposentado.dosdos {
     left: 0px;
@@ -18603,8 +18639,9 @@ p {
     align-self: flex-start;
   }
   .hometext.explorertexttext {
+    display: none;
     width: auto;
-    height: 28%;
+    height: auto;
     margin-top: 80px;
     padding-right: 0px;
     padding-left: 0px;
@@ -18612,10 +18649,16 @@ p {
     transform: perspective(1431px);
   }
   .hometext.explorertexttext.ctx {
-    width: 69%;
+    width: auto;
     margin-top: 80px;
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .hometext.explorertexttext.mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .home {
     position: relative;
@@ -19333,7 +19376,7 @@ p {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-    font-family: Roboto, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     white-space: normal;
   }
   .section.blackspacerex {
@@ -19536,7 +19579,7 @@ p {
     -ms-flex-align: start;
     align-items: flex-start;
     background-color: transparent;
-    background-image: url('../images/BackgroundGirlNew22.webp');
+    background-image: url('../images/BackgroundGirlNew22.jpg');
     background-position: 50% 50%;
     background-size: auto 150%;
     background-repeat: no-repeat;
@@ -19618,7 +19661,7 @@ p {
   }
   .section-6.treasurehunter {
     height: 100vh;
-    background-image: url('../images/ExplorerBackgroundNew.webp');
+    background-image: url('../images/ExplorerBackgroundNew.jpg');
     background-position: 50% 50%;
     background-size: 2500px;
   }
@@ -19740,7 +19783,7 @@ p {
   .girldiv.tablet {
     left: auto;
     bottom: -15px;
-    z-index: 2;
+    z-index: 80;
     width: 100%;
     height: auto;
     -webkit-box-orient: vertical;
@@ -20010,6 +20053,7 @@ p {
   }
   .reloj {
     right: -25%;
+    overflow: hidden;
     width: 140%;
     height: auto;
     -webkit-box-align: end;
@@ -20023,6 +20067,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    overflow: visible;
     height: 60vh;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
@@ -20080,12 +20125,12 @@ p {
   }
   .footer-heading {
     margin-top: 20px;
-    font-family: 'Roboto Mono', sans-serif;
+    font-family: Roboto, sans-serif;
     color: #3f65ff;
     font-size: 10px;
   }
   .footer-link {
-    font-family: Lato, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 10px;
   }
   .text-block-16 {
@@ -20224,7 +20269,7 @@ p {
   .div-block-59 {
     left: 0px;
     bottom: 0px;
-    z-index: 2;
+    z-index: 80;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -20477,11 +20522,11 @@ p {
     font-size: 23px;
   }
   .div-block-66 {
-    top: 60px;
+    top: 0px;
     bottom: 0px;
-    z-index: 600;
+    z-index: 800;
     width: 100%;
-    margin-top: 0px;
+    margin-top: -298px;
     margin-bottom: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -20736,6 +20781,10 @@ p {
   .basictradingiconcentered {
     top: auto;
     bottom: 57px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     height: 58%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -20955,6 +21004,7 @@ p {
     line-height: 100%;
   }
   .hivellytitle1.expl {
+    display: block;
     margin-bottom: 0px;
     padding-left: 20px;
     font-size: 4ch;
@@ -20969,6 +21019,9 @@ p {
     justify-content: flex-start;
     font-size: 4vh;
     text-align: left;
+  }
+  .hivellytitle1.expl.expltexttitle1 {
+    line-height: 100%;
   }
   .hivellyundertitle1 {
     margin-top: 0px;
@@ -21111,11 +21164,13 @@ p {
   }
   .basetipo {
     bottom: 0px;
-    z-index: -1;
-    display: none;
+    z-index: 510;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     height: 26%;
     margin-top: 0px;
-    margin-bottom: -305px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -21147,10 +21202,8 @@ p {
     justify-content: center;
   }
   .basetipo.mobile {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    z-index: 10;
+    display: none;
     margin-bottom: -278px;
   }
   .fondoimage {
@@ -22026,7 +22079,7 @@ p {
     line-height: 30px;
   }
   .text-span-93 {
-    margin-top: 0px;
+    margin-top: -2px;
     padding-left: 20px;
     font-size: 3ch;
     line-height: 100%;
@@ -22500,22 +22553,26 @@ p {
   src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Bebas';
   src: url('../fonts/BebasKai.ttf') format('truetype'), url('../fonts/Bebas-Regular.ttf') format('truetype'), url('../fonts/BebasNeue-Regular.ttf') format('truetype'), url('../fonts/BebasNeue-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Bebas';
   src: url('../fonts/BebasKai.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: 'Bebas';
   src: url('../fonts/Bebas-Regular.otf') format('opentype');
   font-weight: 100;
   font-style: normal;
+  font-display: auto;
 }
