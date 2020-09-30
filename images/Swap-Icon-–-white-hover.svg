@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="23.27" viewBox="0 0 21 23.27">
+  <defs>
+    <clipPath id="clip-Swap_Icon_1">
+      <rect width="21" height="23.27"/>
+    </clipPath>
+  </defs>
+  <g id="Swap_Icon_1" data-name="Swap Icon – 1" clip-path="url(#clip-Swap_Icon_1)">
+    <g id="Grupo_3499" data-name="Grupo 3499" transform="translate(-1305.268 -8656.439)">
+      <path id="Trazado_962" data-name="Trazado 962" d="M1315.682,8676.343l-2.4-1.633v1.633h-4.828a.84.84,0,0,1-.838-.84v-14.1a.84.84,0,0,1,.838-.839l5.218.054-1.52-1.146,1.725-1.257h-5.423a3.192,3.192,0,0,0-3.188,3.188v14.1a3.191,3.191,0,0,0,3.188,3.188h4.828v1.4l2.122-1.4,1.893-1.249Z" transform="translate(0 -0.386)" fill="#fff"/>
+      <path id="Trazado_963" data-name="Trazado 963" d="M1324.563,8657.838h-4.828v-1.4l-2.123,1.4-1.893,1.249,1.617,1.1,2.4,1.633v-1.633h4.828a.84.84,0,0,1,.838.84v14.1a.84.84,0,0,1-.838.839l-5.218-.053,1.52,1.146-1.725,1.257h5.423a3.192,3.192,0,0,0,3.188-3.188v-14.1A3.192,3.192,0,0,0,1324.563,8657.838Z" transform="translate(-1.483)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
