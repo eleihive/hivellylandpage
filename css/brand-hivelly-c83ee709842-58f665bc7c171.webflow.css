@@ -3847,7 +3847,7 @@ p {
   -ms-grid-row-align: auto;
   align-self: auto;
   background-color: #000;
-  background-image: url('../images/BackgroundGirlNew22_1.webp');
+  background-image: url('../images/BackgroundGirlNew22.webp');
   background-position: 50% 55%;
   background-size: auto 170%;
   background-repeat: no-repeat;
@@ -10537,7 +10537,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   background-color: #21242b;
-  background-image: url('../images/BackgroundMasterBLUR.webp');
+  background-image: url('../images/BackgroundMasterBLUR.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
@@ -13032,7 +13032,7 @@ p {
     padding-left: 120px;
   }
   .section-press-kit {
-    background-image: url('../images/BackgroundMasterBLUR-p-2600.webp');
+    background-image: url('../images/GodBackgroundNew-p-2600BLUR2.webp');
     background-size: auto;
     background-repeat: no-repeat;
   }
@@ -15384,7 +15384,7 @@ p {
     max-width: 1920px;
   }
   .imagepablur {
-    margin-top: 570px;
+    margin-top: 100px;
   }
   .textexplorer {
     position: absolute;
@@ -16573,7 +16573,7 @@ p {
   }
   .section-press-kit {
     background-color: #21242b;
-    background-image: url('../images/BackgroundMasterBLUR.webp');
+    background-image: url('../images/GodBackgroundNew-p-2600BLUR2.webp');
     background-position: 50% 50%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -23866,7 +23866,7 @@ p {
   }
   .reloj {
     right: -25%;
-    overflow: hidden;
+    overflow: visible;
     width: 135%;
     height: auto;
     -webkit-box-align: end;
@@ -24061,6 +24061,7 @@ p {
   }
   .call-to-action.underleader {
     height: auto;
+    min-width: 320px;
     margin-bottom: 50px;
     padding-right: 10px;
     padding-left: 10px;
@@ -25137,7 +25138,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     padding: 10px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -25157,8 +25158,8 @@ p {
     color: #919191;
   }
   .explorertextblackside.hover4 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 10px;
     font-size: 19px;
   }
@@ -25180,8 +25181,8 @@ p {
     color: #919191;
   }
   .explorertextblackside.hover6 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 10px;
     font-size: 19px;
   }
@@ -25305,7 +25306,9 @@ p {
     font-weight: 700;
   }
   .hover6 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 19px;
     line-height: 100%;
     text-align: center;
@@ -25316,6 +25319,8 @@ p {
     font-weight: 700;
   }
   .hover5 {
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 19px;
     line-height: 100%;
   }
