@@ -10537,7 +10537,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   background-color: #21242b;
-  background-image: url('../images/BackgroundMasterBLUR.png');
+  background-image: url('../images/BackgroundMasterBLUR.webp');
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
@@ -13032,7 +13032,7 @@ p {
     padding-left: 120px;
   }
   .section-press-kit {
-    background-image: url('../images/GodBackgroundNew-p-2600BLUR2.webp');
+    background-image: url('../images/BackgroundMasterBLUR-p-2600.webp');
     background-size: auto;
     background-repeat: no-repeat;
   }
@@ -16573,7 +16573,7 @@ p {
   }
   .section-press-kit {
     background-color: #21242b;
-    background-image: url('../images/GodBackgroundNew-p-2600BLUR2.webp');
+    background-image: url('../images/BackgroundMasterBLUR-p-2600.webp');
     background-position: 50% 50%;
     background-size: auto;
     background-repeat: no-repeat;
