@@ -33309,7 +33309,7 @@ if (reversed == null) { reversed = false; }
 		this.BotonToLandpage.addEventListener("click", fl_ClickToGoToWebPage_7);
 		
 		function fl_ClickToGoToWebPage_7() {
-			window.open("https://benson2424.github.io/", "_blank");
+			window.open("https://www.hivelly.com/", "_blank");
 		}
 	}
 
